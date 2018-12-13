@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-// in this code our goal is to experiment with pointer logic.
 
-int main(){
+int main()
+{
+   //Variable declaration
+   int num = 10;
 
-  int num = 10;
+   //Pointer declaration
+   int *p;
 
-  int *p;
+   //Assigning address of num to the pointer p
+   p = &num;
 
-  p = num;
-
-  fprint(stdio,"adress of variable is %p",p);
-
-
-
+   fprintf(stdout,"Address of variable num is: %p", p);
+   return 0;
 }
