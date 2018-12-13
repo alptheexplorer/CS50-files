@@ -1,9 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>  
+#include <stdlib.h>
+// in this code our goal is to experiment with pointer logic.
 
-int main(void){
+int main(){
 
- printf("im working")
- return 0;
+  int num = 10;
+
+  int *p;
+
+  p = num;
+
+  fprint(stdio,"adress of variable is %p",p);
+
+
 
 }
